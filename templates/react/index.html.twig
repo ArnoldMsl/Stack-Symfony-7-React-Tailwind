@@ -1,14 +1,30 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ReactController!
+{% block title %}Welcome to my stack !
 {% endblock %}
 
 {% block body %}
 	<div class="bg-white">
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 			<div class="text-center">
-				<p class="mx-auto mt-5 max-w-xl text-xl text-gray-500">Ceci est une démo de React dans une application Symfony</p>
-                <div {{ react_component('Hello', { 'fullName': 'Arnold Masselin' }) }}></div>
+				<p class="mx-auto mt-5 max-w-xl text-xl text-sky-500">Welcome to my Stack ! <br />
+				This stack currently runs on :
+				</p>
+				<ul class="m-4">
+					<li>Symfony
+					<li>React
+					<li>Tailwind CSS
+				</ul>
+				<p class="mx-auto mt-5 max-w-xl text-xl text-sky-500">
+				You can Create your components in assets/react/controllers, for example :</p>
+                <div class="m-4" {{ react_component('Hello', { 'name': 'Arnold Masselin' }) }}></div>
+				<p class="mx-auto m-5 max-w-xl text-xl text-sky-500">
+				It is the first stack I put publicly on GitHub so fell free to make any comments and feedback, 
+				it would be greatly appreciated 😊</p>
+				<a class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-8"
+				href="https://github.com/ArnoldMsl" target="blank">
+  					My GitHub profile
+				</a>
             </div>
 		</div>
 	</div>
