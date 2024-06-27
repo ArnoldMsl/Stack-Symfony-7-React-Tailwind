@@ -124,6 +124,18 @@ Encore
         reloadDelay: 0
     }))
 ```
+
+then build the assets : 
+ Using npm:
+    ```bash
+    npm run dev
+    ```
+
+ Using Yarn:
+    ```bash
+    yarn dev
+    ```
+    
 Your browser should now refresh everytime you modify an asset or a Twig template
 
 ## Usage
