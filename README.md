@@ -19,7 +19,7 @@ Follow these steps to get started with the project:
     git clone https://github.com/ArnoldMsl/Stack-Symfony-7-React-Tailwind.git
     ```
 
-    then got to the directory :
+    then go to the directory :
 
    ```bash
    cd Stack-Symfony-7-React-Tailwind
